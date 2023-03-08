@@ -1,0 +1,111 @@
+main {
+        flex-wrap: wrap;
+        background-color: black;
+        color: white;
+        padding: 50px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+        padding-top: 80px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  h1 {
+    text-align: left;
+  }
+  .text {
+    width: 50%;
+    text-align: justify;
+  }
+  
+
+  .dev {
+    flex: 1 1 50%;
+        text-align: right;
+        font-size: 36px;
+        color: #CE6857;
+        animation-name: move;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        font-family: 'Tilt Neon', cursive;
+  }
+
+  .text {
+    flex: 1 1 50%;
+    text-align: justify;
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 28px;
+        width: 50%;
+        text-align: justify;
+        margin-bottom: 30px;
+      }
+  
+
+
+
+
+
+  
+  .dev {
+    width: 60%;
+    text-align: right;
+  }
+  
+  .dev h2 {
+    animation: movimento 2s infinite;
+    margin: 0;
+  }
+  
+
+
+
+  @keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+    }
+
+
+
+    @media  (max-width: 768px) {
+      .main {
+        flex-direction: column;
+        align-items: center;
+      }
+      .dev {
+        text-align: center;
+        width: 100%;
+      }
+      .text {
+        width: 100%;
+      }
+    }
+      
+    @media  (max-width: 480px) {
+      .main {
+        flex-direction: column;
+        align-items: center;
+      }
+      .dev {
+        text-align: center;
+        width: 100%;
+      }
+      .text {
+        width: 100%;
+      }
+    }
+
+
+    
