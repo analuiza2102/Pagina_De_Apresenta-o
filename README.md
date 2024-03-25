@@ -1,4 +1,4 @@
-# AnaLuizaPortf-lio
+# AnaLuiza Portfolio
 
 
 Portfólio vai ser atualizado a cada projeto.
